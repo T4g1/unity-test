@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MonoBehaviourTest : MonoBehaviour
+public class Game : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("coucou");
+        
     }
 
     // Update is called once per frame
