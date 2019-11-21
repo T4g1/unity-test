@@ -5,19 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void OnPlayButtonClick() => SceneManager.LoadScene("GameScene");
-
+    
     public void OnQuitButtonClick() => Application.Quit();
 }
